@@ -1,0 +1,7 @@
+h1 Get a filesize
+p Submit a file and receive a JSON response with the size of the file from the metadata.
+fieldset
+    legend Choose a file and submit it
+    form(action='/filesize' method='post' enctype='multipart/form-data')
+        input(type='file' name="profile")
+        input(type='submit')
